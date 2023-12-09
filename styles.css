@@ -1,0 +1,203 @@
+body {
+    background-image: url("images/background_index.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+@media only screen and (max-width: 1920px) {
+    img.izquierda {
+        float: left;
+        width: 33%;
+        margin: 0px 10px 10px 0px;
+        border: 1px solid black;
+    }
+    img.derecha {
+        float: right;
+        width: 33%;
+        margin: 0px 0px 10px 10px;
+        border: 1px solid black;
+    }
+    img.char_left {
+        float: left;
+        width: 10%;
+        margin: 0px 10px 10px 0px;
+        border: 1px solid black;
+    }
+    img.char_right {
+        float: right;
+        width: 10%;
+        margin: 0px 0px 10px 10px;
+        border: 1px solid black;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    img.izquierda {
+        float: left;
+        width: 50%;
+        margin: 0px 10px 10px 0px;
+        border: 1px solid black;
+    }
+    img.derecha {
+        float: right;
+        width: 50%;
+        margin: 0px 0px 10px 10px;
+        border: 1px solid black;
+    }
+    img.char_left {
+        float: left;
+        width: 27%;
+        margin: 0px 10px 10px 0px;
+        border: 1px solid black;
+    }
+    img.char_right {
+        float: right;
+        width: 27%;
+        margin: 0px 0px 10px 10px;
+        border: 1px solid black;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    img.izquierda {
+        width: 100%;
+        margin: 0px 10px 10px 0px;
+        border: 1px solid black;
+    }
+    img.derecha {
+        width: 100%;
+        margin: 0px 0px 10px 10px;
+        border: 1px solid black;
+    }
+    img.char_left {
+        width: 50%;
+        margin: 0px 10px 10px 0px;
+        border: 1px solid black;
+    }
+    img.char_right {
+        width: 50%;
+        margin: 0px 0px 10px 10px;
+        border: 1px solid black;
+    }
+}
+
+header, nav, footer, main {
+    max-width: 1600px;
+    width: 90%;
+    margin: auto;
+    border: 1px solid;
+}
+
+header {
+    clear: both;
+    background-image: url("images/background_header.jpg");
+    background-repeat: repeat;
+    background-size: 30%;
+}
+
+#logotipo {
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    letter-spacing: -1.1px;
+    bottom: 0;
+    background-color: white;
+}
+
+footer .copyright{
+    color: white;
+}
+
+footer .enlaces {
+    float: left;
+}
+
+footer .creador {
+    float: right;
+}
+
+footer img {
+    max-width: 20px;
+    vertical-align: middle;
+}
+
+.pie {
+    padding: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+#content {
+    background-color: white;
+    padding: 12px;
+}
+
+
+ 
+/*Menu*/
+
+.navh {
+    width: 100%;
+    margin: auto;
+    list-style: none;
+    padding: 0px;
+}
+
+.navh > li {
+    float: left;
+    width: 25%;
+    height: 100%;
+    margin: 0px;
+}
+
+.navh li a {
+    color: white;
+    background-image: url("images/background_header.jpg");
+    background-repeat: repeat;
+    background-size: 30%;
+    padding: 10px 12px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+.navh a:hover {
+    background-image: url("images/a_hover.jpg");
+    background-size: 150%;
+    background-position: center;
+    color: black;
+    font-weight: 900;
+}
+
+.navh li:hover > ul {
+    display: block;
+    min-width: 100px;
+    width: inherit;
+}
+
+.navh li ul li {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navh li ul {
+    list-style: none;
+    display: none;
+    position: absolute;
+    padding-inline-start: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#logotipo img {
+    max-height: 80px;
+    max-width: 100%;
+}
